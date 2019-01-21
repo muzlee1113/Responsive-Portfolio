@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yuwen's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="headerh1">YUWEN LI</h1>
+        <h1 id="headerh1_hidden">YW</h1>
+        <div class="topnav" id="myTopnav">
+            <a id="contactpage" href="contact.html">Contact</a>
+            <a id="aboutpage" href="index.html">About</a>
+            <a id="ptfpage" class="active_link" href="portfolio.html">Portfolio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Portfolio</h2>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <div class="container">
+                        <div id="text1">Shakespeare Club</div>
+                        <img id="prtimg1" src="assets/images/D01 Sign-up page 1.png" />
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <div id="text2">Credit Card Checkout</div>
+                        <img id="prtimg2" src="assets/images/D02 Credit Card Checkout.png" />
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <div id="text3">Calorie Calculator</div>
+                        <img id="prtimg3" src="assets/images/D04 Calculator.png" />
+                    </div>
+                </div>
+                <!-- </div>
+            <div class="row"> -->
+                <div class="column">
+                    <div class="container">
+                        <div id="text4">PetMet</div>
+                        <img id="prtimg4" src="assets/images/D06 User Profile Mockup.png" />
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <div id="text5">Smart Clock</div>
+                        <img id="prtimg5" src="assets/images/D07 Setting.png" />
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Copyright
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>

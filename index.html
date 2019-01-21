@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yuwen's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="headerh1">YUWEN LI</h1>
+        <h1 id="headerh1_hidden">YW</h1>
+        <div class="topnav" id="myTopnav">
+            <a id="contactpage" href="contact.html">Contact</a>
+            <a id="aboutpage" class="active_link" href="index.html">About</a>
+            <a id="ptfpage" href="portfolio.html">Portfolio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>About Me</h2>
+        <img src="assets/images/Yuwen.jpg" alt="YuwenLi" style="width:200px;height:200px;" id="imgyuwen">
+
+        <p>
+            Growing up in a family of an architect and a civil engineer, I have closely witnessed the value and power
+            of design and technology since childhood. In college, however, I discovered my interest and passion in
+            communication and education. When I thought I would go down a path completely off of my parents,
+            interestingly enough, all the successes and challenges I experienced in my study and work led me to rethink
+            the power and value of design and technology, connecting me back to my family heritage and pointing me
+            towards the job as a UX Designer. </p>
+
+        <p>
+            I first became fascinated by the topic of incremental change when I designed the lightweight online reading
+            product that I mentioned earlier. One goal of the product was to cultivate students’ habits in reading and
+            learning. In designing product features to achieve the goal, I came across some interesting challenges and
+            was motivated to explore behavior change theories such as Charles Duhigg’s habit loop and BJ Fogg’s
+            motivation wave. First, in light of Charles Duhigg’s theory that a habit forms through a loop propelled by
+            continuous rewards, I utilized gamified rewards such as ranking, trophy, and growing avatar, into my design
+            of the reading product to sustain students’ reading actions. Second, inspired by BJ Fogg’s theory that a
+            designer should not rely on forcefully boosted motivation but harness whatever motivation exists at the
+            moment by assigning tasks of best-suited difficulty levels (hardest task for high motivation moment and
+            vice versa) to drive behavior change, I envisioned in my design of the reading product to tap into user
+            context data and behavior data to recognize different students’ motivation levels at different times and
+            give tasks accordingly. Of course, such feature relies on personalization technology to make it happen,
+            which is another exciting area to explore that can significantly empower product and solution design </p>
+        <p>
+            Designing to increase information relevance is another area of my major interest. I started to realize the
+            issue of information relevance when I worked at New Oriental, a private educational service provider. As
+            the largest of its kind in China, the institution in Beijing alone offers more than 300 different English
+            courses of varying levels, topics, teaching methods, etc. Finding the right course that fits each
+            individual student is challenging even with the aid of the course search engine and the counselors; a lot
+            of assumptions about the student’s abilities have to be made and many trials and errors are needed.
+            Throughout the time managing the course, I accumulated a large pool of student engagement and performance
+            data, which unfortunately were not fully exploited. I see a lot of potentials in leveraging data technology
+            to offer a more personalized and thus more effective learning experience. For example, I have always
+            envisioned to create and maintain digital student profiles to closely track students’ learning trajectory
+            and therefrom utilize adaptive learning technology to provide dynamically adjusted content throughout
+            students’ learning journey. </p>
+    </main>
+    <footer>
+        Copyright
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
