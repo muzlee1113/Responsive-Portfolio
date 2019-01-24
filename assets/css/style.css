@@ -55,7 +55,10 @@ h2 {
     margin-bottom: 1em;
 }
 #imgyuwen {
-    float: left; margin-right: 20px;
+    float: left; 
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
 }
 footer {
     position: fixed;
@@ -96,6 +99,7 @@ p {
     border-color:lightgray;
     border-width: 1px;
     padding: 3px 0px 3px 6px;
+    width: 100%;
 }
 
 #fillarea{
@@ -104,6 +108,7 @@ p {
     border-color:lightgray;
     border-width: 1px;
     margin-bottom: 16px;
+    width: 100%;
 }
 
 #submit {
@@ -135,6 +140,7 @@ p {
   
 article {
     position: relative;
+    padding: 10px;
 }
   
 .article-img {
@@ -148,7 +154,8 @@ article {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(237, 155, 155, 0.4);
+    text-align: center;
 }
 
 .topnav .icon {
@@ -202,6 +209,8 @@ article {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: auto;
     }
     .topnav a {display: none;}
     .topnav a.icon {
