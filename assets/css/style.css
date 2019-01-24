@@ -61,6 +61,8 @@ h2 {
     height: auto;
 }
 footer {
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     background-color: gray;
     color: white;
@@ -152,8 +154,12 @@ article {
     bottom: 0;
     width: 100%;
     padding: 10px;
+<<<<<<< HEAD
     background-color: rgba(237, 155, 155, 0.4);
     text-align: center;
+=======
+    background-color: rgba(255, 255, 255, 0.7);
+>>>>>>> 9abb71dba3d6b3e2211eee906b273c22fe2a85fb
 }
 
 .topnav .icon {
@@ -197,6 +203,9 @@ article {
         margin-top: 30px;
     }
     header {
+        position: relative;
+    }
+    footer {
         position: relative;
     }
     #imgyuwen {
