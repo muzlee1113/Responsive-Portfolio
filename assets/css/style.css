@@ -42,7 +42,7 @@ main {
     padding: 25px;
     margin: 0 auto;
     margin-top: 120px;
-    margin-bottom: 2em;
+    margin-bottom: 7em;
 }         
 
 h2 {
@@ -154,12 +154,8 @@ article {
     bottom: 0;
     width: 100%;
     padding: 10px;
-<<<<<<< HEAD
     background-color: rgba(237, 155, 155, 0.4);
     text-align: center;
-=======
-    background-color: rgba(255, 255, 255, 0.7);
->>>>>>> 9abb71dba3d6b3e2211eee906b273c22fe2a85fb
 }
 
 .topnav .icon {
