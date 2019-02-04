@@ -35,6 +35,7 @@ header {
     display: inline-block;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Lato', sans-serif;
 }
 main {
     background-color: white;
@@ -75,7 +76,14 @@ footer {
 }
 p {
     color: gray;
+    font-family: 'Roboto', sans-serif;
 }
+
+input {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
 #contactp {
     color: gray;
     margin: 0px 0px 8px 0px;
@@ -154,8 +162,10 @@ article {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-color: rgba(237, 155, 155, 0.4);
+    background-color: rgba(237, 155, 155, 0.8);
     text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .topnav .icon {
