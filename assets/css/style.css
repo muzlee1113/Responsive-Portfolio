@@ -152,15 +152,17 @@ article {
 }
   
 .article-img {
+    display: block;
     height: 200px;
     width: 100%;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
 }
   
 .article-title {
-    position: absolute;
     bottom: 0;
-    width: 100%;
     padding: 10px;
     background-color: rgba(237, 155, 155, 0.8);
     text-align: center;
