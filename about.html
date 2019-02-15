@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yuwen's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="assets/images/LYW LOGO.png">
+        <div class="topnav" id="myTopnav">
+            <a id="resume" href="https://drive.google.com/file/d/1As4-SrNYvTY9cL-v37R0IOLrn9pBt2rm/view">Résumé</a>
+            <a id="aboutpage" class="active_link" href="about.html">About</a>
+            <a id="ptfpage" href="index.html">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="leading">
+            <p class="leading-bigtext">About</p>
+            <p class="leading-text">Something more about me.</p>
+            <span>
+
+                <a href="https://github.com/muzlee1113"><img class="fa" src="assets/images/github-logo.png"></a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/yuwen-li-176a43105/"><img class="fa"
+                        src="assets/images/linkedin.png"></a>
+            </span>
+            <span>
+                <a href="mailto:muzlee1113@gmail.com?Subject=Hello%20Yuwen"><img class="fa"
+                        src="assets/images/email.png"></a>
+            </span>
+
+        </section>
+        <section class="text">
+            <!-- <img src="assets/images/Yuwen.jpg" alt="YuwenLi" id="imgyuwen"> -->
+            <div class="textcontainer">
+                <h5>
+                    Hi, I'm Yuwen.
+                </h5>
+                <p>
+                    A user-focused Front-End Developer motivated to integrate technologies and design thinking to solve
+                    problems
+                    and improve the user’s experience. Enjoys leveraging academic background in Social Science,
+                    knowledge in
+                    human-centered design, and skills in programming to implement the user’s needs and wants, translate
+                    research
+                    insights into user-friendly product features. Professionally trained in the Full Stack Web
+                    Development
+                    Boot
+                    Camp at Univerisity of Minnesota, learning HTML/CSS, Javascript, JQuery, Node.js, MySQL, etc.
+                    Passionate
+                    about approaching challenges of the real world from the angles of both a designer [prototyping] and
+                    a
+                    developer [using neat codes], so as to speak for the users, drive cross-functional collaboration and
+                    create
+                    desirable, feasible, and viable products that can help people thrive in a digital environment.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
