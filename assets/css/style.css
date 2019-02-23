@@ -200,6 +200,12 @@ article {
 #img5 {
     background-color: #1F263A;
 }
+#img6 {
+    background-color: #7D8389;
+}
+#img7 {
+    background-color: #00AE62
+}
   
 .cardcontainer:hover .overlay{
     opacity: 1;
