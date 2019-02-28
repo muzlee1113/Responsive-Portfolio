@@ -206,6 +206,10 @@ article {
 #img7 {
     background-color: #00AE62
 }
+#img8 {
+    background-color: #FF9400
+}
+  
   
 .cardcontainer:hover .overlay{
     opacity: 1;
