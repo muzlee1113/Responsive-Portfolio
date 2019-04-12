@@ -13,14 +13,11 @@
 
 <body>
     <header>
-        <img id="logo" src="assets/images/LYW LOGO.png">
+        <a href="index.html"><img id="logo" src="assets/images/LYW LOGO.png"></a>
         <div class="topnav" id="myTopnav">
             <a id="resume" href="https://drive.google.com/file/d/1As4-SrNYvTY9cL-v37R0IOLrn9pBt2rm/view">Résumé</a>
             <a id="aboutpage" class="active_link" href="about.html">About</a>
-            <a id="ptfpage" href="index.html">Home</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <a id="ptfpage" href="index.html">Work</a>
         </div>
     </header>
 
@@ -45,9 +42,9 @@
         <section class="text">
             <!-- <img src="assets/images/Yuwen.jpg" alt="YuwenLi" id="imgyuwen"> -->
             <div class="textcontainer">
-                <h5>
+                <h4>
                     Hi, I'm Yuwen.
-                </h5>
+                </h4>
                 <p>
                     A user-focused Front-End Developer motivated to integrate technologies and design thinking to solve
                     problems
@@ -69,15 +66,4 @@
             </div>
         </section>
     </main>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
 </body>

@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Montserrat:700|Open+Sans|Roboto"
+    <link
+        href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Montserrat:700|Open+Sans|Roboto:100,200,400,700"
         rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img id="logo" src="assets/images/LYW LOGO.png">
+        <a href="#"><img id="logo" src="assets/images/LYW LOGO.png"></a>
         <div class="topnav" id="myTopnav">
             <a id="resume" href="https://drive.google.com/file/d/1As4-SrNYvTY9cL-v37R0IOLrn9pBt2rm/view">Résumé</a>
             <a id="aboutpage" href="about.html">About</a>
-            <a id="ptfpage" class="active_link" href="index.html">Home</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+            <a id="ptfpage" class="active_link" href="index.html">Work</a>
             </a>
         </div>
     </header>
@@ -28,186 +27,66 @@
         <section class="leading">
             <p class="leading-bigtext">Hi, I<span class="leading-bigtext" style="color: #DB696A">’</span>m Yuwen Li<span
                     class="leading-bigtext" style="color: #DB696A">.</span></p>
-            <p class="leading-text">UX Designer & Developer.</p>
+            <ul class="leading-text">
+                <li>UX </li>
+                <li class="tab" id="designer"><a name="designer">Designer</a></li> 
+                <li>& </li>
+                <li class="tab" id="developer"><a name="developer">Developer</a></li>
+                <hr>
+            </ul>
         </section>
-        <section class="cards">
+        <section class="cards show" id="designer_panel">
             <article>
-                <a href="https://onepiecehangmangame.herokuapp.com/index.html">
+                    <a href="http://www.whats-in-store.net/">
+                        <div class="cardcontainer">
+                            <img class="article-img" src="assets/images/D00 WIS.png" alt=" ">
+                            <div class="overlay" id="img13">
+                                <div class="article-title">
+                                    <h5><b>What's In Store</b></h5>
+                                    <h6>A tool for business owner to manage their inventories online.</h6>
+                                    <h6>React | Express | MongoDB</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jakescheele/whats-in-store">
+                        <img class="code" src="assets/images/code.png" alt=" ">
+                    </a>
+                </article>
+                <article>
+                    <a href="https://pet-park.herokuapp.com/">
+                        <div class="cardcontainer">
+                            <img class="article-img" src="assets/images/D00 Petpark.png" alt=" ">
+                            <div class="overlay" id="img11">
+                                <div class="article-title">
+                                    <h5><b>Pet Park</b></h5>
+                                    <h6>A web tamagotchi game that kids love.</h6>
+                                    <h6>Handlebars | SQL | Express </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/JoshVanOverbeke/Project2">
+                        <img class="code" src="assets/images/code.png" alt=" ">
+                    </a>
+                </article>
+        </section>
+
+        <section class="cards" id="developer_panel">
+            <article>
+                <a href="http://www.whats-in-store.net/">
                     <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Guessword Game.png" alt=" ">
-                        <div class="overlay" id="img1">
+                        <img class="article-img" src="assets/images/D00 WIS.png" alt=" ">
+                        <div class="overlay" id="img13">
                             <div class="article-title">
-                                One Piece Hangman
-                            </div>
-                            <div class="article-subtitle">
-                                HTML/CSS | Javascript
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/Word-Guess-Game">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://worldwidetrivia.herokuapp.com/index.html">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Trivia Game.png" alt=" ">
-                        <div class="overlay" id="img2">
-                            <div class="article-title">
-                                World Wide Trivia
-                            </div>
-                            <div class="article-subtitle">
-                                HTML/CSS | JQuery
+                                <h5><b>What's In Store</b></h5>
+                                <h6>A tool for business owner to manage their inventories online.</h6>
+                                <h6>React | Express | MongoDB</h6>
                             </div>
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/muzlee1113/TriviaGame">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://giftasticpage.herokuapp.com/index.html">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Giftastic.png" alt=" ">
-                        <div class="overlay" id="img3">
-                            <div class="article-title">
-                                GifTastic
-                            </div>
-                            <div class="article-subtitle">
-                                HTML/CSS | JQuery | APIs
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/GifTastic">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://trainspottingpage.herokuapp.com/index.html">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Transpotting.png" alt=" ">
-                        <div class="overlay" id="img4">
-                            <div class="article-title">
-                                Trainspotting
-                            </div>
-                            <div class="article-subtitle">
-                                HTML/CSS | JQuery | Firebase
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/Train-schedule-bonus">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://giphy-to-me.herokuapp.com/index.html">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Giphytome.png" alt=" ">
-                        <div class="overlay" id="img5">
-                            <div class="article-title">
-                                GiphyToMe
-                            </div>
-                            <div class="article-subtitle">
-                                HTML/CSS | JQuery | APIs
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/cvanglee/House-Martell">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://drive.google.com/file/d/1Mf1upAAAR5FbwtBLMYdhdRar7QD86CRD/view">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Liri.png" alt=" ">
-                        <div class="overlay" id="img6">
-                            <div class="article-title" style="color:black">
-                                Liri
-                            </div>
-                            <div class="article-subtitle" style="color:black">
-                                Javascript | Node | APIs
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/liri-node-app">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://drive.google.com/file/d/1Mf1upAAAR5FbwtBLMYdhdRar7QD86CRD/view">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 NBA Word Guess Game.png" alt=" ">
-                        <div class="overlay" id="img7">
-                            <div class="article-title">
-                                NBA Word Guess Game
-                            </div>
-                            <div class="article-subtitle">
-                                Javascript | Node 
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/Constructor-Word-Guess">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://drive.google.com/open?id=1PDLzrk75R6gNyPMB3-_W_WywX-euxVJa">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Bamazon.png" alt=" ">
-                        <div class="overlay" id="img8">
-                            <div class="article-title">
-                                Bamazon
-                            </div>
-                            <div class="article-subtitle">
-                                Node.js | MySQL
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/bamazon">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://findfriendbyyuwen.herokuapp.com/">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 Friend Finder.png" alt=" ">
-                        <div class="overlay" id="img9">
-                            <div class="article-title" style="color:black">
-                                Friend Finder
-                            </div>
-                            <div class="article-subtitle" style="color:black">
-                                Node.js | MySQL | Express
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/friendFinder">
-                    <img class="code" src="assets/images/code.png" alt=" ">
-                </a>
-            </article>
-            <article>
-                <a href="https://sequelizeburgerbyyuwen.herokuapp.com/">
-                    <div class="cardcontainer">
-                        <img class="article-img" src="assets/images/D00 EatDaBurger.png" alt=" ">
-                        <div class="overlay" id="img10">
-                            <div class="article-title" style="color:black">
-                                Eat-Da-Burger!
-                            </div>
-                            <div class="article-subtitle" style="color:black">
-                                Node.js | MySQL | Express | Handlebars
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/sequelizedBurger">
+                <a href="https://github.com/jakescheele/whats-in-store">
                     <img class="code" src="assets/images/code.png" alt=" ">
                 </a>
             </article>
@@ -217,13 +96,9 @@
                         <img class="article-img" src="assets/images/D00 Petpark.png" alt=" ">
                         <div class="overlay" id="img11">
                             <div class="article-title">
-                                Pet Park
-                            </div>
-                            <div class="article-subtitle">
-                                Node.js | Express | Handlebars
-                            </div>
-                            <div class="article-subtitle" style="top: 60%">
-                                MySQL | Sequelize
+                                <h5><b>Pet Park</b></h5>
+                                <h6>A web tamagotchi game that kids love.</h6>
+                                <h6>Handlebars | SQL | Express </h6>
                             </div>
                         </div>
                     </div>
@@ -238,13 +113,9 @@
                         <img class="article-img" src="assets/images/D00 Newsdigest.png" alt=" ">
                         <div class="overlay" id="img12">
                             <div class="article-title">
-                                News Digest
-                            </div>
-                            <div class="article-subtitle">
-                                Node.js | Express | Handlebars
-                            </div>
-                            <div class="article-subtitle" style="top: 60%">
-                                MongoDB | Mongoose
+                                <h5><b>News Digest</b></h5>
+                                <h6>A web application that allows users to read, save and note NYT News.</h6>
+                                <h6>Handlebars | Express | MongoDB </h6>
                             </div>
                         </div>
                     </div>
@@ -253,17 +124,126 @@
                     <img class="code" src="assets/images/code.png" alt=" ">
                 </a>
             </article>
+            <article>
+                <a href="https://googlebooksbyyuwen.herokuapp.com/">
+                    <div class="cardcontainer">
+                        <img class="article-img" src="assets/images/D00 Google Book.png" alt=" ">
+                        <div class="overlay" id="img1">
+                            <div class="article-title" style="color:black">
+                                <h5><b>Google Book</b></h5>
+                                <h6>A web application that allow users to search and save books.</h6>
+                                <h6>React| MongoDB | Express</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/muzlee1113/googlebooks">
+                    <img class="code" src="assets/images/code.png" alt=" ">
+                </a>
+            </article>
+            <article>
+                <a href="https://findfriendbyyuwen.herokuapp.com/">
+                    <div class="cardcontainer">
+                        <img class="article-img" src="assets/images/D00 Friend Finder.png" alt=" ">
+                        <div class="overlay" id="img9">
+                            <div class="article-title" style="color:black">
+                                <h5><b>Friend Finder</b></h5>
+                                <h6>A website to match users with their soul mate by a survey.</h6>
+                                <h6>Node.js | MySQL | Express</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/muzlee1113/friendFinder">
+                    <img class="code" src="assets/images/code.png" alt=" ">
+                </a>
+            </article>
+            <article>
+                <a href="https://giphy-to-me.herokuapp.com/index.html">
+                    <div class="cardcontainer">
+                        <img class="article-img" src="assets/images/D00 Giphytome.png" alt=" ">
+                        <div class="overlay" id="img5">
+                            <div class="article-title">
+                                <h5><b>GiphyToMe</b></h5>
+                                <h6>A facial recognition application that generates gifs and text according to the
+                                    physical attributes of the uploaded image.</h6>
+                                <h6>HTML/CSS | JQuery | APIs</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/cvanglee/House-Martell">
+                    <img class="code" src="assets/images/code.png" alt=" ">
+                </a>
+            </article>
+            <article>
+                <a href="https://giftasticpage.herokuapp.com/index.html">
+                    <div class="cardcontainer">
+                        <img class="article-img" src="assets/images/D00 Giftastic.png" alt=" ">
+                        <div class="overlay" id="img3">
+                            <div class="article-title">
+                                <h5><b>GifTastic</b></h5>
+                                <h6>A website that allows users search trendy gifs of their favorite characters.</h6>
+                                <h6>HTML/CSS | JQuery | APIs</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/muzlee1113/GifTastic">
+                    <img class="code" src="assets/images/code.png" alt=" ">
+                </a>
+            </article>
+            <article>
+                <a href="https://drive.google.com/open?id=1PDLzrk75R6gNyPMB3-_W_WywX-euxVJa">
+                    <div class="cardcontainer">
+                        <img class="article-img" src="assets/images/D00 Bamazon.png" alt=" ">
+                        <div class="overlay" id="img8">
+                            <div class="article-title">
+                                <h5><b>Bamazon</b></h5>
+                                <h6>A node.js application that run to simulate Amazon with customer, manager and
+                                    supervisor mode.</h6>
+                                <h6>Node.js | MySQL</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/muzlee1113/bamazon">
+                    <img class="code" src="assets/images/code.png" alt=" ">
+                </a>
+            </article>
         </section>
     </main>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
 </body>
+
+<script>
+    var tabs = document.getElementsByClassName('tab');
+    var cards = document.getElementsByClassName('cards')
+    // var designer = document.getElementsByClassName('designer')
+    // var developer = document.getElementsByClassName('developer')
+    // console.log(designer)
+    // console.log(developer)
+
+
+
+    Array.prototype.forEach.call(tabs, function(tab) {
+        tab.addEventListener('click', setActiveClass);
+    });
+
+    function setActiveClass(evt) {
+        const {name} = evt.target
+        console.log(name)
+        Array.prototype.forEach.call(tabs, function(tab) {
+            tab.classList.remove('active_tab');
+        });
+        Array.prototype.forEach.call(cards, function(card){
+            card.classList.remove('show')
+        })
+        evt.currentTarget.classList.add('active_tab');
+        
+        if(name==="designer"){
+            document.getElementById('designer_panel').classList.add('show')
+        }else if(name==="developer"){
+            document.getElementById('developer_panel').classList.add('show')
+        }
+    }
+</script>
